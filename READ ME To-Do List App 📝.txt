@@ -1,0 +1,100 @@
+ To-Do List App 📝
+
+ Overview
+
+Welcome to the To-Do List App! This application, developed at Codsoft, helps you manage your daily tasks and prioritize projects efficiently. It’s designed to enhance skills in data handling and user experience design using Python.
+
+Table of Contents
+
+1.Features
+2.Technologies Used
+3.Installation
+4.Usage
+  - Add Task
+  - Update Task
+  - Complete Task
+  - Delete Task
+  - List Tasks
+- Project Structure
+- Contributing
+
+## Features
+
+- Add Tasks: Easily add new tasks with descriptions.
+- Edit Tasks: Modify existing tasks to update their details.
+- Delete Tasks: Remove tasks that are no longer needed.
+- Mark as Completed: Keep track of tasks that are done.
+- Persistent Storage: Save and load tasks from a JSON file to retain data between sessions.
+
+## Technologies Used
+
+- Python 3: The core programming language used for development.
+- JSON: For data storage and retrieval.
+
+## Installation
+
+To get started with the To-Do List App, follow these steps:
+
+1. Clone the repository:
+   
+   git clone https://nivedhashree03/to-do-list-app.git
+  
+
+2. Navigate to the project directory:
+   
+   cd to-do-list-app
+   
+
+3. Install dependencies:
+   This app does not require any additional dependencies outside of standard Python libraries.
+
+## Usage
+
+1. Run the application:
+   
+   python todo.py
+   
+
+2. Using the Command Line Interface (CLI):
+   - Add a Task: Enter the task description and select the option to add it.
+   - Edit a Task: Select the task by index, enter the new task description to update it.
+   - Delete a Task: Select the task by index and choose to delete it.
+   - Mark as Completed: Select the task by index and mark it as completed.
+   - View All Tasks: Display the list of all tasks with their completion status.
+
+### Add Task
+
+To add a new task, select the "Add Task" option from the menu and follow the prompts.
+
+### Update Task
+
+To update an existing task, select the "Update Task" option, provide the task index, and enter the new task details.
+
+### Complete Task
+
+To mark a task as completed, select the "Complete Task" option and provide the task index.
+
+### Delete Task
+
+To delete a task, select the "Delete Task" option and provide the task index.
+
+### List Tasks
+
+To view all tasks, select the "List Tasks" option. This will display all tasks along with their completion status.
+
+## Project Structure
+
+
+to-do-list-app/
+├── LICENSE              # License file
+├── README.md            # This README file
+├── todo_list.json       # File to save tasks
+└── todo.py              # Main application file
+
+
+ Acknowledgements
+
+- Codsoft: For providing the learning platform and resources.
+- Open-source Libraries: Thanks to the developers of the libraries and tools used in this project.
+- Community: Special thanks to the Python and open-source community for their support and contributions.
+
